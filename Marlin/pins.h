@@ -151,7 +151,7 @@
   #include "pins_MEGATRONICS_3.h"
 #elif MB(MEGATRONICS_31)
   #define MEGATRONICS_31
-  #include "pins_MEGATRONICS_3.h"
+  #include "pins_MEGATRONICS_3.h" 
 #elif MB(OMCA_A)
   #include "pins_OMCA_A.h"
 #elif MB(OMCA)
@@ -584,5 +584,25 @@
 #ifndef SS_PIN
   #define SS_PIN   AVR_SS_PIN
 #endif
+
+// DiscoEasy200
+#undef HEATER_1_PIN
+#define HEATER_1_PIN -1
+
+//#undef FAN_PIN
+//#define FAN_PIN 9
+
+#undef X_MAX_PIN
+#define X_MAX_PIN -1
+#undef X_MIN_PIN
+#define X_MIN_PIN 2
+#undef Y_MAX_PIN
+#define Y_MAX_PIN 3
+#undef Y_MIN_MIN
+#define Y_MIN_MIN -1
+#undef Z_MAX_PIN
+#define Z_MAX_PIN -1
+#undef Z_MIN_PIN
+#define Z_MIN_PIN 15
 
 #endif // __PINS_H__
