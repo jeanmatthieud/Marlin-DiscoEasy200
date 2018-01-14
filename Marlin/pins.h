@@ -713,12 +713,7 @@
 #endif
 
 // DiscoEasy200
-#undef HEATER_1_PIN
-#define HEATER_1_PIN -1
-
-//#undef FAN_PIN
-//#define FAN_PIN 9
-
+/*
 #undef X_MAX_PIN
 #define X_MAX_PIN -1
 #undef X_MIN_PIN
@@ -731,5 +726,5 @@
 #define Z_MAX_PIN -1
 #undef Z_MIN_PIN
 #define Z_MIN_PIN 15
-
+*/
 #endif // __PINS_H__

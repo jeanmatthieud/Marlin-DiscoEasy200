@@ -1,3 +1,13 @@
+# Dagoma DiscoEasy200
+This firmware is configured for the DiscoEasy from Dagoma, with some customizations :
+* Heated bed
+* Screen
+* Pin mapping changes
+
+See [my blog post about it](https://www.iot-experiments.com/dagoma-discoeasy200).
+
+**Warning : To use this firmware, you have to remap the endstops, according to the MKS base pinout**
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
