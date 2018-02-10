@@ -3,6 +3,9 @@ This firmware is configured for the DiscoEasy from Dagoma, with some customizati
 * Heated bed
 * Screen
 * Pin mapping changes
+* Dual Z motors
+* Dual Z endstops
+* Z probe removed
 
 See [my blog post about it](https://www.iot-experiments.com/dagoma-discoeasy200).
 
